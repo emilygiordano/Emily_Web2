@@ -1,0 +1,32 @@
+article{
+  section{
+    background-color: #0BAADA;
+    h1{
+      font-family: 'Open Sans', sans-serif;
+      text-align: center;
+      font-size: rem-calc(60);
+      color: white;
+      line-height: normal;
+      background-color: #0BAADA;
+      font-size: rem-calc(30);
+      padding: rem-calc(40) 0 rem-calc(40) 0;
+    }
+    img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: rem-calc(200);
+      padding-top: rem-calc(40);
+
+    }
+    p{
+      font-family: 'Open Sans', sans-serif;
+      text-align: center;
+      color: white;
+      line-height: normal;
+      background-color: #0BAADA;
+      font-size: rem-calc(20);
+      padding: rem-calc(50) rem-calc(60) rem-calc(50) rem-calc(60);
+    }
+  }
+}
