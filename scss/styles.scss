@@ -17,8 +17,6 @@
 // Layout Styles
 @import "layout/_header";
 @import "layout/_footer";
-@import "layout/_hero";
-@import "layout/help";
-@import "layout/pref";
-@import "layout/howto";
-@import "layout/form";
+
+// Section Styles
+@import "sections/_help";

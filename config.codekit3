@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "29156",
 "files": {
+	"/.gitattributes": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.gitattributes",
+		"oF": 0
+		},
 	"/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -320,19 +328,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/layout/_form.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/layout/_form.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/scss/layout/_header.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -346,7 +341,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/layout/_help.scss": {
+	"/scss/layout/_help1.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -354,12 +349,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/layout/_help.css",
+		"oAP": "/scss/layout/_help1.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/layout/_hero.scss": {
+	"/scss/layout/_hero1.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -367,12 +362,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/layout/_hero.css",
+		"oAP": "/scss/layout/_hero1.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/layout/_howto.scss": {
+	"/scss/layout/_howto1.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -380,12 +375,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/layout/_howto.css",
+		"oAP": "/scss/layout/_howto1.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/layout/_pref.scss": {
+	"/scss/layout/_pref1.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -393,7 +388,46 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/layout/_pref.css",
+		"oAP": "/scss/layout/_pref1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/sections/_help.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/sections/_help.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/sections/_hero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/sections/_hero.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/sections/_howto.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/sections/_howto.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

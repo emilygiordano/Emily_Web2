@@ -328,6 +328,26 @@ template {
 /* ================================
         Forms css
 ================================ */
+#forms
+article {
+  background-color: white; }
+  #forms
+article h1 {
+    background-color: white;
+    color: #FF9FCC;
+    font-size: 1.75rem; }
+  #forms
+article div {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-bottom: 10pt; }
+    #forms
+article div p {
+      background-color: white;
+      color: #0BAADA;
+      font-family: 'Comfortaa', cursive; }
+
 /* ================================
         Navigation css
 ================================ */
@@ -362,132 +382,5 @@ footer {
   footer p {
     font-family: 'Comfortaa', cursive; }
 
-div {
-  display: flex;
-  align-items: center;
-  position: relative; }
-  div div img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 2.5rem; }
-  div h1 {
-    font-family: 'Comfortaa', cursive;
-    text-align: center;
-    padding: 0 90pt;
-    font-size: 1.5625rem;
-    line-height: 1.875rem;
-    color: #8D8D8D; }
-  div h2 {
-    font-family: 'Comfortaa', cursive;
-    text-align: center;
-    padding: 0 15pt;
-    font-size: 1.5625rem;
-    line-height: 1.875rem;
-    color: #8D8D8D; }
-  div section img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 12.5rem;
-    padding-top: 2.5rem; }
-
-article section {
-  background-color: #0BAADA; }
-  article section h1 {
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    font-size: 3.75rem;
-    color: white;
-    line-height: normal;
-    background-color: #0BAADA;
-    font-size: 1.875rem;
-    padding: 2.5rem 0 2.5rem 0; }
-  article section img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 12.5rem;
-    padding-top: 2.5rem; }
-  article section p {
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    color: white;
-    line-height: normal;
-    background-color: #0BAADA;
-    font-size: 1.25rem;
-    padding: 3.125rem 3.75rem 3.125rem 3.75rem; }
-
-h1 {
-  font-family: 'Comfortaa', cursive;
-  text-align: center;
-  font-size: 3rem;
-  color: #FF9FCC;
-  padding: 1.25rem 0 0 0; }
-
-p {
-  font-family: 'Open Sans', sans-serif;
-  padding: 0 1.5625rem 0 1.5625rem;
-  text-align: center;
-  font-size: 1.25rem; }
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 12.5rem;
-  padding-top: 2.5rem; }
-
-h3 {
-  font-family: 'Comfortaa', cursive;
-  text-align: center;
-  font-size: 2.5rem;
-  color: #0BAADA; }
-
-section {
-  background-color: #0BAADA; }
-  section h1 {
-    background-color: #0BAADA;
-    color: white;
-    padding: 2.5rem 0 2.5rem 0; }
-  section h2 {
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.6875rem;
-    padding: 0 1.5625rem 0 1.5625rem;
-    color: white;
-    background-color: #0BAADA; }
-  section div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-    section div img {
-      width: 13.125rem; }
-    section div p {
-      text-align: right;
-      background-color: #0BAADA;
-      color: white;
-      font-family: 'Open Sans', sans-serif; }
-    section div h3 {
-      text-align: left;
-      padding-left: 0.75rem;
-      background-color: #0BAADA;
-      color: white;
-      font-family: 'Open Sans', sans-serif;
-      font-size: 1.25rem; }
-
-article {
-  background-color: white; }
-  article h1 {
-    background-color: white;
-    color: #FF9FCC;
-    font-size: 1.75rem; }
-  article div {
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    padding-bottom: 10pt; }
-    article div p {
-      background-color: white;
-      color: #0BAADA;
-      font-family: 'Comfortaa', cursive; }
+#help h1 {
+  font-family: 'Open Sans', sans-serif; }
