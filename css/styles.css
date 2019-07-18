@@ -328,22 +328,18 @@ template {
 /* ================================
         Forms css
 ================================ */
-#forms
-article {
+#forms {
   background-color: white; }
-  #forms
-article h1 {
+  #forms h1 {
     background-color: white;
     color: #FF9FCC;
     font-size: 1.75rem; }
-  #forms
-article div {
+  #forms div {
     display: flex;
     justify-content: space-between;
     background-color: white;
     padding-bottom: 10pt; }
-    #forms
-article div p {
+    #forms div p {
       background-color: white;
       color: #0BAADA;
       font-family: 'Comfortaa', cursive; }
@@ -351,6 +347,25 @@ article div p {
 /* ================================
         Navigation css
 ================================ */
+/* ================================
+        Forms css
+================================ */
+#forms {
+  background-color: white; }
+  #forms h1 {
+    background-color: white;
+    color: #FF9FCC;
+    font-size: 1.75rem; }
+  #forms div {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-bottom: 10pt; }
+    #forms div p {
+      background-color: white;
+      color: #0BAADA;
+      font-family: 'Comfortaa', cursive; }
+
 /* ================================
         Header css
 ================================ */
@@ -382,5 +397,141 @@ footer {
   footer p {
     font-family: 'Comfortaa', cursive; }
 
-#help h1 {
-  font-family: 'Open Sans', sans-serif; }
+#help {
+  background-color: #0BAADA;
+  padding-bottom: 1.25rem; }
+  #help h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 1.875rem;
+    color: white;
+    padding-top: 1.875rem; }
+  #help p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 1.25rem;
+    color: white;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    padding-right: 3.75rem;
+    padding-left: 3.75rem; }
+  #help img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; }
+
+#hero {
+  text-align: center; }
+  @media (min-width: 672px) {
+    #hero h1 {
+      font-family: 'Comfortaa', cursive;
+      font-size: 2.8125rem;
+      text-align: center; }
+    #hero h2 {
+      font-size: 1.5625rem;
+      font-family: 'Open Sans', sans-serif; }
+    #hero img {
+      padding-top: 3.125rem;
+      width: 30%; }
+    #hero div img {
+      width: 70%;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem; } }
+  @media (min-width: 768px) {
+    #hero h1 {
+      font-family: 'Comfortaa', cursive;
+      font-size: 3.75rem;
+      text-align: center; }
+    #hero h2 {
+      font-size: 1.5625rem;
+      font-family: 'Open Sans', sans-serif; }
+    #hero img {
+      padding-top: 3.125rem;
+      width: 30%; }
+    #hero div img {
+      width: 70%;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem; } }
+
+#pref {
+  padding-bottom: 1.25rem; }
+  #pref h1 {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-size: 3rem;
+    color: #FF9FCC; }
+  #pref p {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 1.875rem 0 1.875rem;
+    text-align: center;
+    font-size: 1.125rem; }
+  #pref h3 {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-size: 1.875rem;
+    color: #0BAADA; }
+  #pref img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-top: 0.9375rem; }
+
+#howto {
+  background-color: #0BAADA; }
+  #howto h1 {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-size: 3rem;
+    background-color: #0BAADA;
+    color: white;
+    text-align: center;
+    padding-top: 2.5rem; }
+  #howto h2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    padding: 0 1.5625rem 0 1.5625rem;
+    color: white;
+    background-color: #0BAADA; }
+  #howto div {
+    display: flex; }
+    #howto div img {
+      width: 50%;
+      padding-left: 0.625rem; }
+    #howto div p {
+      background-color: #0BAADA;
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      padding-right: 0.9375rem;
+      align-items: center;
+      padding-left: 1.25rem;
+      text-align: center;
+      font-size: 0.9375rem;
+      margin-top: 15%; }
+    #howto div h3 {
+      background-color: #0BAADA;
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      padding-left: 1.25rem;
+      padding-right: 0.9375rem;
+      text-align: center;
+      font-size: 0.9375rem;
+      margin-top: 14%; }
+
+/* ================================
+        Forms css
+================================ */
+#forms {
+  background-color: white; }
+  #forms article h1 {
+    text-align: center;
+    top: 2.5rem; }
+  #forms article div {
+    padding-bottom: 1.25rem; }
+    #forms article div p {
+      padding-left: 1.875rem; }
+    #forms article div img {
+      padding-right: 1.25rem;
+      width: 60%; }

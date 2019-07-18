@@ -1,0 +1,29 @@
+#pref{
+  padding-bottom: rem-calc(20);
+  h1{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-size: rem-calc(48);
+    color: #FF9FCC;
+  }
+  p{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 rem-calc(30) 0 rem-calc(30);
+    text-align: center;
+    font-size: rem-calc(18);
+  }
+  h3{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-size: rem-calc(30);
+    color: #0BAADA;
+  }
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-top: rem-calc(15);
+  }
+
+}

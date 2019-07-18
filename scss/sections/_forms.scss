@@ -1,0 +1,23 @@
+/* ================================
+        Forms css
+================================ */
+#forms {
+  background-color: white;
+  article{
+    h1{
+      text-align: center;
+      top: rem-calc(40);
+      font-family: 'Open Sans', sans-serif;
+    }
+    div{
+      padding-bottom: rem-calc(20);
+      p{
+        padding-left: rem-calc(30);
+      }
+      img{
+        padding-right: rem-calc(20);
+        width: 60%;
+      }
+    }
+  }
+}

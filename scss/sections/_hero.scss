@@ -1,0 +1,30 @@
+#hero {
+  text-align: center;
+    h1 {
+      font-family: 'Comfortaa', cursive;
+      font-size: rem-calc(45);
+      text-align: center;
+    }
+
+    h2 {
+      font-size: rem-calc(25);
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    img {
+      padding-top: rem-calc(50);
+      width: 30%;
+    }
+
+    div {
+      img {
+        width: 70%;
+        padding-top: rem-calc(20);
+        padding-bottom: rem-calc(20);
+      }
+    }
+
+    @include sm{
+      background-color: black;
+    }
+  }

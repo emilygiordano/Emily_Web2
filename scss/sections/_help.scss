@@ -1,7 +1,28 @@
 #help {
-  // section{
+  background-color: $background;
+  padding-bottom: rem-calc(20);
     h1{
       font-family: 'Open Sans', sans-serif;
+      text-align: center;
+      font-size: rem-calc(30);
+      color: white;
+      padding-top: rem-calc(30);
     }
-  // }
+    p{
+      font-family: 'Open Sans', sans-serif;
+      text-align: center;
+      font-size: rem-calc(20);
+      color: white;
+      padding-top: rem-calc(10);
+      padding-bottom: rem-calc(10);
+      padding-right: rem-calc(60);
+      padding-left: rem-calc(60);
+    }
+    img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    }
+
 }
